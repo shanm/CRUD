@@ -1,0 +1,33 @@
+React, Axios and Firebase
+
+CRUD Operations - npx create-react-app react-axios-fb
+
+install i axios
+
+=> add, edit, display and 
+
+=> React Moda   l(Popup)
+npm install react-modal
+
+=> put request
+
+=> React Loader - npm i react-loader-spinner react-promise-tracker 
+
+=>React toastify - yarn add react-toastify
+
+
+When developing with the MERN stack (Mongodb, Express, React, Node) is this method of authentication secure?
+
+1) User inputs email and password in the Front End
+
+2) Email and password are sent to the backend 
+
+3) Password is authenticated using bcrypt to compare it to the passwordHash stored in Mongodb. 
+
+4) If password is correct, Token is generate using express-jwt (JSON WEB TOKEN)
+
+5) Token is sent to front end
+
+6) Token is saved in local storage and keeps user logged in. Token is used to access private routes in React. 
+
+7) If user logs out, then local storage is cleared of token
